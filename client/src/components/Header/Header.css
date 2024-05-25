@@ -1,0 +1,32 @@
+.header1 {
+  padding: 0.55rem 2.5rem;
+  margin-bottom: 1.5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #b2b1b12e;
+}
+.navs {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.navs span {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.navs a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  width: 8vw;
+}
+
+.navs svg {
+  fill: #000 !important;
+}

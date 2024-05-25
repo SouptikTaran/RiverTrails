@@ -1,0 +1,29 @@
+/* App.css or index.css */
+
+/* Scrollbar track */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  /* Scrollbar track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background of the scrollbar track */
+  }
+  
+  /* Scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Rounded corners */
+    border: 3px solid #f1f1f1; /* Padding around the thumb */
+  }
+  
+  /* Scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color when hovered */
+  }
+  
+  /* Scrollbar corner (for resizable scrollbars in some browsers) */
+  ::-webkit-scrollbar-corner {
+    background: #f1f1f1; /* Background of the scrollbar corner */
+  }
+  
